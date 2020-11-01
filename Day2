@@ -1,0 +1,19 @@
+//day2 assignment employee
+public class Employee {
+	 
+	    void display(String name, int age, String city)
+	    {
+	        System.out.println("The name is "+name);
+	        System.out.println("The age is "+age);
+	        System.out.println("The city is "+city);
+	        System.out.println();
+	    }
+	    public static void main(String[] args)
+	    {
+	        Employee e1=new Employee();
+	        Employee e2=new Employee();
+	        e1.display("Rahul",21,"Delhi");
+	        e2.display("Nikhil",22,"Hyderabad");
+	    }
+
+}
